@@ -36,8 +36,9 @@ El objetivo principal es resolver la fragmentación del dato publicitario, permi
 ![Demostración interactiva del Dashboard](demo_dashboard.gif)
 
 > 📥 **Acceso al proyecto completo (.pbix):**  
-> Puedes descargar el archivo ejecutable de Power BI para explorar el modelo de datos y las medidas DAX desde el siguiente enlace:  
-> 🔗 **[Descargar archivo en Google Drive](https://drive.google.com/file/d/1W-EVClW4jx1tciCdP7a53teQZSkxCa_a/view?usp=sharing)**
+> Puedes descargar el archivo ejecutable de Power BI para explorar el modelo de datos y las medidas DAX directamente desde el siguiente enlace:  
+> 🔗 **[Descargar archivo .pbix (Descarga Directa)](https://drive.google.com/uc?export=download&id=1W-EVClW4jx1tciCdP7a53teQZSkxCa_a)**
+
 
 ---
 
