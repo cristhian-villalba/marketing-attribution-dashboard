@@ -29,6 +29,19 @@ El objetivo principal es resolver la fragmentación del dato publicitario, permi
 
 ## 📂 Archivos del Repositorio
 
+---
+
+## 🎬 Vista Previa e Interactividad
+
+![Demostración interactiva del Dashboard](demo_dashboard.gif)
+
+> 📥 **Acceso al proyecto completo (.pbix):**  
+> Puedes descargar el archivo ejecutable de Power BI para explorar el modelo de datos y las medidas DAX desde el siguiente enlace:  
+> 🔗 **[Descargar archivo en Google Drive](https://drive.google.com/file/d/1W-EVClW4jx1tciCdP7a53teQZSkxCa_a/view?usp=sharing)**
+
+---
+
+
 * `Marketing_Attribution_Dashboard.pbix`: Archivo interactivo de Power BI con el modelo relacional, las medidas DAX y el diseño del reporte.
 * `dataset_marketing_attribution.xlsx`: Conjunto de datos limpios de inversión y conversión utilizados para alimentar el modelo.
 
