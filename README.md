@@ -1,29 +1,31 @@
-# 👑 Cuadro de Mando de Atribución Multicanal y Análisis de ROI
+# 📊 Cuadro de Mando de Rendimiento Financiero y Ventas Globales
 
 ## 📝 Descripción del Proyecto
-Este proyecto consiste en el desarrollo de una solución integral de Business Intelligence diseñada para centralizar, consolidar y auditar la inversión publicitaria en múltiples canales digitales (Google Ads, Meta Ads, campañas de Email Marketing) e integrarla con los datos de conversión del CRM.
+Este proyecto consiste en el desarrollo de un cuadro de mando ejecutivo en **Power BI** diseñado para la monitorización consolidada del rendimiento comercial y financiero a escala internacional. 
 
-El objetivo principal es resolver la fragmentación del dato publicitario, permitiendo a la dirección comercial y de marketing evaluar el **Retorno de la Inversión (ROI)**, el **Coste Por Lead (CPL)** y la efectividad del embudo de ventas en una única fuente de verdad.
+La solución centraliza los datos de facturación y costes para ofrecer a la dirección una visión clara del volumen de ventas, el beneficio neto y el margen de rentabilidad, permitiendo filtrar dinámicamente por mercados geográficos, líneas de productos y periodos temporales.
 
 ---
 
-## 📊 Impacto de Negocio y Resultados Clave
+## 📊 Impacto de Negocio y Análisis Muestreado
 
-* **Centralización Multicanal:** Consolidación de datos heterogéneos de inversión publicitaria y atribución de ventas en un modelo de datos unificado.
-* **Optimización del Presupuesto:** Identificación precisa del canal con menor **Coste Por Lead (CPL)** y mayor tasa de conversión a cliente final.
-* **Lógica de Atribución en DAX:** Implementación de métricas calculadas complejas mediante funciones **DAX** para el cálculo del ROI en tiempo real y análisis comparativo temporal (*Time Intelligence*).
-* **Visibilidad Ejecutiva:** Creación de un lienzo interactivo con KPIs de inversión total, volumen de prospectos generados, coste de adquisición y margen de rentabilidad por campaña.
+* **Control de KPIs Ejecutivos:** Visibilidad en tiempo real de las métricas globales clave:
+  * **Ventas Totales:** €128 mill.
+  * **Beneficio Neto:** €17 mill.
+  * **Margen de Beneficio %:** 13,21 %
+* **Análisis Geográfico de Rentabilidad:** Comparativa del Beneficio Neto por país (*Francia, Alemania, Canadá, EE. UU. y México*), identificando los mercados de mayor contribución al margen corporativo.
+* **Rendimiento por Línea de Producto:** Desglose del volumen de ventas por categoría (*Paseo, VTT, Velo, Amarilla, Montana, Carretera*).
+* **Análisis Temporal y Time Intelligence (DAX):** Evaluación de la evolución intermensual comparando las **Ventas Totales vs. Ventas del Mes Anterior**, permitiendo detectar estacionalidades y tendencias de crecimiento comercial.
 
 ---
 
 ## 🎬 Vista Previa e Interactividad
 
-<img width="2032" height="1080" alt="0814(1)" src="https://github.com/user-attachments/assets/c7abc951-19e2-4397-b91d-88e06bae2648" />
-
+<img width="2032" height="1080" alt="636188180-c7abc951-19e2-4397-b91d-88e06bae2648" src="https://github.com/user-attachments/assets/43a8b8c9-8b87-4129-8f3e-9ecbdff416fc" />
 
 > 📥 **Acceso al proyecto completo (.pbix):**  
 > Puedes descargar el archivo ejecutable de Power BI para explorar el modelo de datos y las medidas DAX directamente desde el siguiente enlace:  
-> 🔗 **[Descargar archivo .pbix (Descarga Directa)](https://drive.google.com/uc?export=download&id=1W-EVClW4jx1tciCdP7a53teQZSkxCa_a)**
+> 🔗 **[Descargar archivo .pbix (Descarga Directa)](https://drive.google.com/uc?export=download&id=1WFta20plsEa__tPwKgN6Uhxi_wFw0bWc)**
 
 ---
 
@@ -31,7 +33,21 @@ El objetivo principal es resolver la fragmentación del dato publicitario, permi
 
 | Área | Tecnología / Herramienta | Aplicación en el Proyecto |
 | :--- | :--- | :--- |
-| **Orígenes de Datos** | SQL / Excel / APIs CRM | Datos de inversión publicitaria (Google Ads, Meta) y registros transaccionales/leads de CRM. |
-| **Ingeniería de Datos (ETL)** | Power Query | Limpieza de tablas, unificación de formatos de moneda, eliminación de duplicados y modelado de datos. |
-| **Modelado de Datos** | Power BI (Star Schema) | Construcción de un esquema en estrella (*Star Schema*) conectando tablas de hechos de inversión/ventas con dimensiones de tiempo, canal y campaña. |
-| **Métricas & Cálculo** | DAX Avanzado | Cálculo de ROI, CPL, Tasa de Conversión y análisis *Year-over-Year* (YoY) mediante funciones de *Time Intelligence*. |
+| **Visualización & BI** | Power BI Desktop | Diseño del lienzo interactivo en modo oscuro, maquetación de tarjetas KPI y gráficos comparativos. |
+| **Cálculo Avanzado** | DAX Avanzado | Creación de medidas para *Margen de Beneficio %*, *Ventas Mes Anterior* (funciones de *Time Intelligence*) y acumulación de ventas. |
+| **Ingeniería de Datos** | Power Query | Limpieza de tablas, tipado de datos numéricos/moneda y estructuración de la dimensión calendario. |
+| **Modelado de Datos** | Esquema Relacional | Conexión entre la tabla de hechos financieros y las dimensiones de producto, geografía y fecha. |
+
+---
+
+## 📂 Archivos del Repositorio
+
+* `Proyecto_1_Ventas_Marketing.pbix`: Archivo ejecutable de Power BI con las medidas DAX, modelo relacional y la interfaz visual final.
+
+---
+
+## 📬 Contacto & Autor
+
+* **Autor:** Cristhian Villalba López
+* **Perfil de LinkedIn:** [linkedin.com/in/cristhianvillalba](https://www.linkedin.com/in/cristhianvillalba/)
+* **Correo:** cristh.villalba@gmail.com
