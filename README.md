@@ -16,21 +16,6 @@ El objetivo principal es resolver la fragmentación del dato publicitario, permi
 
 ---
 
-## 🛠️ Stack Tecnológico Utilizado
-
-| Área | Tecnología / Herramienta | Aplicación en el Proyecto |
-| :--- | :--- | :--- |
-| **Orígenes de Datos** | SQL / Excel / APIs CRM | Datos de inversión publicitaria (Google Ads, Meta) y registros transaccionales/leads de CRM. |
-| **Ingeniería de Datos (ETL)** | Power Query | Limpieza de tablas, unificación de formatos de moneda, eliminación de duplicados y modelado de datos. |
-| **Modelado de Datos** | Power BI (Star Schema) | Construcción de un esquema en estrella (*Star Schema*) conectando tablas de hechos de inversión/ventas con dimensiones de tiempo, canal y campaña. |
-| **Métricas & Cálculo** | DAX Avanzado | Cálculo de ROI, CPL, Tasa de Conversión y análisis *Year-over-Year* (YoY) mediante funciones de *Time Intelligence*. |
-
----
-
-## 📂 Archivos del Repositorio
-
----
-
 ## 🎬 Vista Previa e Interactividad
 
 <img width="2032" height="1080" alt="0814(1)" src="https://github.com/user-attachments/assets/c7abc951-19e2-4397-b91d-88e06bae2648" />
@@ -39,3 +24,14 @@ El objetivo principal es resolver la fragmentación del dato publicitario, permi
 > 📥 **Acceso al proyecto completo (.pbix):**  
 > Puedes descargar el archivo ejecutable de Power BI para explorar el modelo de datos y las medidas DAX directamente desde el siguiente enlace:  
 > 🔗 **[Descargar archivo .pbix (Descarga Directa)](https://drive.google.com/uc?export=download&id=1W-EVClW4jx1tciCdP7a53teQZSkxCa_a)**
+
+---
+
+## 🛠️ Stack Tecnológico Utilizado
+
+| Área | Tecnología / Herramienta | Aplicación en el Proyecto |
+| :--- | :--- | :--- |
+| **Orígenes de Datos** | SQL / Excel / APIs CRM | Datos de inversión publicitaria (Google Ads, Meta) y registros transaccionales/leads de CRM. |
+| **Ingeniería de Datos (ETL)** | Power Query | Limpieza de tablas, unificación de formatos de moneda, eliminación de duplicados y modelado de datos. |
+| **Modelado de Datos** | Power BI (Star Schema) | Construcción de un esquema en estrella (*Star Schema*) conectando tablas de hechos de inversión/ventas con dimensiones de tiempo, canal y campaña. |
+| **Métricas & Cálculo** | DAX Avanzado | Cálculo de ROI, CPL, Tasa de Conversión y análisis *Year-over-Year* (YoY) mediante funciones de *Time Intelligence*. |
