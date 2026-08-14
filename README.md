@@ -1,31 +1,31 @@
-# 📊 Cuadro de Mando de Rendimiento Financiero y Ventas Globales
+# 📊 Tablero de Control de Negocio: Resumen Ejecutivo de Ventas y Finanzas
 
 ## 📝 Descripción del Proyecto
-Este proyecto consiste en el desarrollo de un cuadro de mando ejecutivo en **Power BI** diseñado para la monitorización consolidada del rendimiento comercial y financiero a escala internacional. 
+Este proyecto consiste en el desarrollo de un cuadro de mando ejecutivo, diseñado para ofrecer a la alta dirección una visión consolidada, rápida y clara sobre la salud financiera y comercial del negocio.
 
-La solución centraliza los datos de facturación y costes para ofrecer a la dirección una visión clara del volumen de ventas, el beneficio neto y el margen de rentabilidad, permitiendo filtrar dinámicamente por mercados geográficos, líneas de productos y periodos temporales.
+La solución centraliza los datos transaccionales de facturación y costes en una sola pantalla interactiva, permitiendo auditar en tiempo real el volumen de ingresos, el beneficio neto y los márgenes de rentabilidad, con capacidad de filtrado dinámico por países, catálogo de productos y líneas temporales.
 
 ---
 
-## 📊 Impacto de Negocio y Análisis Muestreado
+## 📊 Impacto de Negocio y Métricas del Cuadro de Mando
 
-* **Control de KPIs Ejecutivos:** Visibilidad en tiempo real de las métricas globales clave:
-  * **Ventas Totales:** €128 mill.
-  * **Beneficio Neto:** €17 mill.
-  * **Margen de Beneficio %:** 13,21 %
-* **Análisis Geográfico de Rentabilidad:** Comparativa del Beneficio Neto por país (*Francia, Alemania, Canadá, EE. UU. y México*), identificando los mercados de mayor contribución al margen corporativo.
-* **Rendimiento por Línea de Producto:** Desglose del volumen de ventas por categoría (*Paseo, VTT, Velo, Amarilla, Montana, Carretera*).
-* **Análisis Temporal y Time Intelligence (DAX):** Evaluación de la evolución intermensual comparando las **Ventas Totales vs. Ventas del Mes Anterior**, permitiendo detectar estacionalidades y tendencias de crecimiento comercial.
+* **Cuadro de Mapeo de KPIs Directivos:**
+  * **Ventas Totales:** Control del volumen bruto de facturación (€128 mill.).
+  * **Beneficio Neto:** Rentabilidad absoluta consolidada (€17 mill.).
+  * **Margen de Beneficio %:** Porcentaje de rendimiento operativo (13,21 %).
+* **Análisis Geográfico:** Comparativa del beneficio neto por mercados (*Francia, Alemania, Canadá, EE. UU. y México*) para identificar los países con mayor margen.
+* **Rendimiento por Catálogo:** Desglose del volumen de ventas por líneas de producto.
+* **Análisis de Tendencia y Time Intelligence (DAX):** Gráfico evolutivo comparando las **Ventas Totales vs. Ventas del Mes Anterior** para detectar desviaciones e interacciones temporales.
 
 ---
 
 ## 🎬 Vista Previa e Interactividad
 
-<img width="2032" height="1080" alt="636188180-c7abc951-19e2-4397-b91d-88e06bae2648" src="https://github.com/user-attachments/assets/43a8b8c9-8b87-4129-8f3e-9ecbdff416fc" />
+<img width="2032" height="1080" alt="636188180-c7abc951-19e2-4397-b91d-88e06bae2648" src="https://github.com/user-attachments/assets/1928b40d-6d95-40ca-8c7c-1f8e267e2488" />
 
 > 📥 **Acceso al proyecto completo (.pbix):**  
 > Puedes descargar el archivo ejecutable de Power BI para explorar el modelo de datos y las medidas DAX directamente desde el siguiente enlace:  
-> 🔗 **[Descargar archivo .pbix (Descarga Directa)](https://drive.google.com/uc?export=download&id=1WFta20plsEa__tPwKgN6Uhxi_wFw0bWc)**
+> 🔗 **[Descargar archivo .pbix (Descarga Directa)](https://drive.google.com/uc?export=download&id=1W-EVClW4jx1tciCdP7a53teQZSkxCa_a)**
 
 ---
 
@@ -33,16 +33,16 @@ La solución centraliza los datos de facturación y costes para ofrecer a la dir
 
 | Área | Tecnología / Herramienta | Aplicación en el Proyecto |
 | :--- | :--- | :--- |
-| **Visualización & BI** | Power BI Desktop | Diseño del lienzo interactivo en modo oscuro, maquetación de tarjetas KPI y gráficos comparativos. |
-| **Cálculo Avanzado** | DAX Avanzado | Creación de medidas para *Margen de Beneficio %*, *Ventas Mes Anterior* (funciones de *Time Intelligence*) y acumulación de ventas. |
-| **Ingeniería de Datos** | Power Query | Limpieza de tablas, tipado de datos numéricos/moneda y estructuración de la dimensión calendario. |
-| **Modelado de Datos** | Esquema Relacional | Conexión entre la tabla de hechos financieros y las dimensiones de producto, geografía y fecha. |
+| **Visualización & BI** | Power BI Desktop | Diseño del lienzo ejecutivo en una sola página (modo oscuro) con maquetación de tarjetas KPI y gráficos de tendencia. |
+| **Cálculo Avanzado** | DAX Avanzado | Creación de medidas complejas para *Margen de Beneficio %*, *Ventas Mes Anterior* (funciones de *Time Intelligence*) y acumulados. |
+| **Ingeniería de Datos (ETL)** | Power Query | Limpieza de tablas, tipado de datos numéricos/moneda y estructuración de la dimensión calendario. |
+| **Modelado de Datos** | Esquema Relacional | Conexión entre la tabla de hechos transaccionales y las dimensiones de producto, geografía y fechas. |
 
 ---
 
 ## 📂 Archivos del Repositorio
 
-* `Proyecto_1_Ventas_Marketing.pbix`: Archivo ejecutable de Power BI con las medidas DAX, modelo relacional y la interfaz visual final.
+* `Proyecto_1_Ventas_Marketing.pbix`: Archivo ejecutable de Power BI con la pantalla de Resumen Ejecutivo, modelo relacional y medidas DAX.
 
 ---
 
